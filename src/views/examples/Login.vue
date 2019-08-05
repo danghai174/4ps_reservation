@@ -6,7 +6,7 @@
           <div
             class="md-layout-item md-size-33 md-small-size-66 md-xsmall-size-100 md-medium-size-40 mx-auto"
           >
-            <login-card header-color="green">
+            <login-card header-color="gray">
               <h4 slot="title" class="card-title">Login</h4>
               <md-button
                 slot="buttons"
@@ -68,7 +68,7 @@ export default {
   bodyClass: "login-page",
   data() {
     return {
-      image: require("@/assets/img/profile_city.jpg"),
+      image: require("@/assets/img/4ps_food.jpg"),
       firstname: null,
       email: null,
       password: null
